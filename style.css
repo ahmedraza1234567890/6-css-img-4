@@ -1,0 +1,131 @@
+body
+{
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    background-color: cyan;
+    margin-left: auto;
+    margin-right: auto;
+    width: 65%;
+    height: fit-content;
+    font-size: 45px;
+    text-align: center;
+}
+header{
+    width: 95%;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    padding-top: 20px;
+    background-color: lightseagreen;
+    transition: all 1.5s;
+    
+}
+header:hover{
+    background-color: antiquewhite;
+    color: red;
+    border-radius: 20%;
+    cursor: pointer;
+}
+
+.aside{
+    width: 25%;
+    height: 500px;
+    margin-left: 2.5%;
+    box-sizing: border-box;
+    background-color: lightgreen;
+    padding-top: 210px;
+    float: left;
+    transition: all 1.5s;
+}
+.aside:hover{
+    color: black;
+    background-color: blue;
+}
+.article{
+    width: 67.5%;
+    height: 500px;
+    margin-left: 2.5%;
+    box-sizing: border-box;
+    background-color: orange;
+    padding-top: 210px;
+    position: relative;
+    left: 27.5%;
+    padding-right: 280px;
+}
+.img1{
+    width: 25%;
+    height: 200px;
+    margin-top: 20px;
+    box-sizing: border-box;
+    position: absolute;
+    left: 5%;
+    background-color: rgb(199, 202, 22);
+    padding-top: 60px;
+    transition: all 1.5s;
+ }
+ .img1:hover{
+    height: 300px;
+    width: 30%;
+    color: black;
+    background-color: red;
+    cursor: pointer;
+ }
+ .img2{
+    width: 25%;
+    height: 200px;
+    margin-top: 20px;
+    box-sizing: border-box;
+    position: absolute;
+    left: 37%;
+    background-color: rgb(199, 202, 22);
+    padding-top: 60px;
+    transition: all 1.5s;
+ }
+ .img2:hover{
+    height: 300px;
+    width: 30%;
+    color: black;
+    background-color: red;
+    cursor: pointer;
+ }
+ .img3{
+    width: 25%;
+    height: 200px;
+    margin-top: 20px;
+    box-sizing: border-box;
+    position: absolute;
+    right: 5%;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: rgb(199, 202, 22);
+    padding-top: 60px;
+    transition: all 1.5s;
+ }
+ .img3:hover{
+    height: 300px;
+    width: 30%;
+    color: black;
+    background-color: red;
+    cursor: pointer;
+ }
+footer{
+    width: 95%;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    box-sizing: border-box;
+    padding-top: 20px;
+    background-color: lightseagreen;
+    transition: all 1.5s;
+}
+footer:hover{
+    background-color: antiquewhite;
+    color: red;
+    border-radius: 20%;
+    cursor: pointer;
+}
